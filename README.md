@@ -7,5 +7,5 @@ After it you can run `main.py` with python3 by type `python3 main.py` or `python
 
 #### Depechements:
 This script are using:
-    * *pandas* for parse *.csv* files.
-    * *PIL* (pillow fork) for editing images.
+    *pandas* for parse *.csv* files.
+    *PIL* (pillow fork) for editing images.
