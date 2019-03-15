@@ -74,12 +74,12 @@ def make_image(fnt, d, dots, lines, im, name):
         make_dot(fnt, d, coord_t(dots['x'][i], dots['y'][i], im.size[0], im.size[1])[0], coord_t(dots['x'][i], dots['y'][i], im.size[0], im.size[1])[1], 4, dots['name'][i] )
 
 
-    for_copyright(im, fnt)
+    for_copyright(im, fnt) #comment this if you don't want to see my copytight on image
 
     im.save(name)
 
     im.thumbnail((250,250))
-    im.save("thumb_"+name)
+    im.save("Thumb_"+name)
     print('\nImage {} processing time takes {}\n'.format(name, time.time()-start))
 
 def main():
