@@ -2,6 +2,10 @@ import pandas
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 import time
 
+####################################
+#   Coded by Vgscq on 5.01.2018    #
+####################################
+
 def normal_s(text):
     ans = ''
     i = 0
