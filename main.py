@@ -1,7 +1,6 @@
 import pandas
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 import time
-from shutil import copyfile
 
 def normal_s(text):
     ans = ''
